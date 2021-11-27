@@ -109,9 +109,10 @@ O menu deve ser apresentado novamente ao final de cada operação, até que o us
 				inteiro contador = 0
 				se(vetor[i] != 0){
 					contador++
-				}
+					
 				para(i=0; i < 10; i++){
 				escreva(vetor[i],"\t")
+				}
 				}
 				se(contador == 0){
 					limpa()
@@ -127,7 +128,7 @@ O menu deve ser apresentado novamente ao final de cada operação, até que o us
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2998; 
+ * @POSICAO-CURSOR = 3073; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
