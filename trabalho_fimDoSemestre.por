@@ -104,22 +104,30 @@ O menu deve ser apresentado novamente ao final de cada operação, até que o us
 	funcao imprimeMemoria(){
 		limpa()
 		escreva("Memória\n")
-		se(vetor[0] == 0){
-			limpa()
-			escreva("Memória vazia")}
-			senao{
-			para(i=0; i < 10; i++){
-			escreva(vetor[i],"\t")
-			}	
+			
+			para( i=0; i < 10; i++){
+				inteiro contador = 0
+				se(vetor[i] != 0){
+					contador++
+				}
+				para(i=0; i < 10; i++){
+				escreva(vetor[i],"\t")
+				}
+				se(contador == 0){
+					limpa()
+					escreva("Memoria vazia") 
+					pare
+				}	
 			}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2844; 
+ * @POSICAO-CURSOR = 2998; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
