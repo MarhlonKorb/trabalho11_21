@@ -116,7 +116,7 @@ O menu deve ser apresentado novamente ao final de cada operação, até que o us
 				}
 				se(contador == 0){
 					limpa()
-					escreva("Memoria vazia") 
+					escreva("Memória vazia") 
 					pare
 				}	
 			}
@@ -128,7 +128,7 @@ O menu deve ser apresentado novamente ao final de cada operação, até que o us
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3073; 
+ * @POSICAO-CURSOR = 3036; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
